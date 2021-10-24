@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FFF3"
+    tools:context="com.example.sqlveda.LoginActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/headerregist"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/header"/>
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerregist"
+        android:hint="username"
+        android:layout_marginTop="50dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/editeks"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/username1"
+        android:paddingTop="5dp"
+        android:inputType="textPassword"
+        android:paddingBottom="5dp"
+        android:background="@drawable/editeks"
+        android:paddingLeft="15dp" />
+
+
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnbg"
+        android:layout_below="@id/password1" />
+
+</RelativeLayout>
