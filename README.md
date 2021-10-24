@@ -1,0 +1,2 @@
+# E41201328_MOBILE_SQLite_MANAJEMENFILE
+ For Mobile Workshop Task
